@@ -64,4 +64,45 @@ let price = 100;
 console.log(price);
 // Big int
 y = BigInt("300");
-console.log(y); // will show n in the last
+console.log(typeof y); // will show n in the last
+
+
+
+//project for product
+const product = {
+    title: "Parker Ball pen",
+    rating : 4,
+    offer : 5,
+    price : 100,
+    description : "Parker Ball pen is the best ball pen in the world"
+};
+
+
+//how string and number is diffrent 
+h =  "123" + 1;
+console.log(h);
+k= "abc" + 1;
+console.log(k);
+
+j= 123 + 1;
+console.log(j);
+
+
+//l= abc + 1;
+//consol3.log(l);  <- abc not defined
+
+
+
+//project 2
+const profile = {
+    usernames :"@Neel_Islam",
+    isFollower: false,
+    postsCount: 196,
+    followersCount: 1000,
+    followingCount: 1000,
+    bio: "I am Neel Islam"
+};
+console.log(profile);
+console.log(profile.usernames);
+console.log(profile.isFollower);
+console.log(typeof profile["postsCount"]); //<- check individual data type insite an object or do anything 
