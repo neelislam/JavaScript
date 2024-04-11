@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+h1{
+    color:aqua;
+    background-color: rgb(114, 27, 27);
+    border-radius: 5%;
+    text-align: center;
+    display: flex;
+}
